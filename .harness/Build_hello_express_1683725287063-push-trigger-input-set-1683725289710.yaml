@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hello_express_1683725287063-push-trigger-input-set
+  identifier: Build_hello_express_1683725287063pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hello_express_1683725287063
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
